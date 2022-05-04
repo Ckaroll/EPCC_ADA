@@ -1,10 +1,11 @@
+//simulación de Insertion-Sort en el array
 #include<iostream>
 #include<conio.h>
 
 using namespace std;
 
 int main(){
-	int numeros[] = {31,41,59,26,41,58};
+	int numeros[] = {31,41,59,26,41,58}; //array de ejemplo
 	int i,pos,aux;
 	
 	for(i=0;i<6;i++){
